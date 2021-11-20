@@ -1,0 +1,59 @@
+.title {
+  color: #00ff23;
+}
+.red_title {
+  color: rgb(255, 16, 16);
+}
+@media screen and (min-width: 900px) {
+  .link {
+    .button {
+      width: 21rem;
+    }
+  }
+}
+.cards {
+  .lightslate_grey {
+    background: lightslategrey;
+    color: #fff;
+  }
+  .button {
+    margin-top: 1rem;
+    .button {
+      width: 21rem;
+      height: 5rem;
+    }
+  }
+}
+.ant-form-item-label > label {
+  color: #fff;
+}
+@media (max-width: 575px) {
+  .ant-form .ant-form-item {
+    flex-wrap: wrap;
+    display: grid !important;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .cards {
+    .card {
+      width: 300px !important;
+      height: 300px !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 80px;
+    }
+    .button {
+      margin-top: 1rem;
+      .button {
+        width: 21rem;
+        height: 5rem;
+      }
+    }
+  }
+  .ant-form-item-label > label {
+    font-size: 32px;
+  }
+}

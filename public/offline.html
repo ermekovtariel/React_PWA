@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offline PWA App</title>
+  </head>
+  <style>
+    button {
+      width: 14rem;
+      height: 5rem;
+      background: #282c34;
+      color: #fff;
+      font-size: 32px;
+      border-radius: 4px;
+    }
+    @media screen and (max-width: 900px) {
+      button {
+        position: absolute;
+        bottom: 2rem;
+      }
+    }
+  </style>
+  <body style="display: grid; justify-items: center">
+    <header>
+      <h1>Check your internet connection!!!</h1>
+    </header>
+    <div>
+      <button type="submit" onClick="refreshPage()">Reloal</button>
+    </div>
+    <script>
+      function refreshPage() {
+        window.location.reload();
+      }
+    </script>
+  </body>
+</html>
